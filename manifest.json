@@ -4,5 +4,18 @@
   "description": "A collection of web tools to craft quality software.",
   "version": "1.0",
   "action": {
-  }
+  },
+  "background": {
+    "service_worker": "./src/index.js",
+    "type": "module"
+  },
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://*/",
+    "https://*/"
+  ]
 }
