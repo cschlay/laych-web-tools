@@ -6,7 +6,7 @@
   "action": {
   },
   "background": {
-    "service_worker": "./src/index.js",
+    "service_worker": "./serviceWorker.js",
     "type": "module"
   },
   "permissions": [
